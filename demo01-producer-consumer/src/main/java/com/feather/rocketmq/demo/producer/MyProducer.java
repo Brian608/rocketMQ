@@ -1,4 +1,4 @@
-package com.feather.rocket.demo.producer;
+package com.feather.rocketmq.demo.producer;
 
 import org.apache.rocketmq.client.exception.MQBrokerException;
 import org.apache.rocketmq.client.exception.MQClientException;
