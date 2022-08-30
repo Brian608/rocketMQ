@@ -1,4 +1,4 @@
-package com.feather.rocketmq.demo.consumber;
+package com.feather.rocketmq.demo.demo.consumer;
 
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -13,8 +13,8 @@ import java.util.List;
 
 /**
  * @projectName: rocketMQ
- * @package: com.feather.rocketmq.demo.consumber
- * @className: MyPushConsumber
+ * @package: com.feather.rocketmq.demo.consumer
+ * @className: MyPushConsumer
  * @author: feather(杜雪松)
  * @description: TODO
  * @since: 2022/8/30 17:42
