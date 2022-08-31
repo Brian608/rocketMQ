@@ -1,4 +1,4 @@
-package com.feather.rocketmq.demo;
+package com.feather.rocketmq.demo.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

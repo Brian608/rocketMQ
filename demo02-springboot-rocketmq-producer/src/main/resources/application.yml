@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot_rocket_mq_procducer
+rocketmq:
+  name-server: localhost:9876
+  producer:
+    group: producer_grp_02

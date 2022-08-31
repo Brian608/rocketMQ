@@ -1,6 +1,6 @@
-package com.feather.rocketmq;
+package com.feather.rocketmq.demo;
 
-import com.feather.rocketmq.demo.RocketMqProducerApplication;
+import com.feather.rocketmq.demo.demo.RocketMqProducerApplication;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.junit.Test;
 import org.junit.runner.RunWith;
