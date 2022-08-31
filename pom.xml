@@ -14,6 +14,7 @@
         <module>demo03-springboot-rocketmq-consumer</module>
         <module>demo04-rocketmq-producer</module>
         <module>demo05-rocketmq-comsumer</module>
+        <module>demo06-rocketmq-tag-filiter</module>
     </modules>
 
 
