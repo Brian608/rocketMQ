@@ -15,6 +15,9 @@
         <module>demo04-rocketmq-producer</module>
         <module>demo05-rocketmq-comsumer</module>
         <module>demo06-rocketmq-tag-filiter</module>
+        <module>demo07-producer-mq</module>
+        <module>demo08-rocketmq-demo-reconsume</module>
+        <module>demo09-rocketmq-dlm</module>
     </modules>
 
 
