@@ -18,6 +18,7 @@
         <module>demo07-producer-mq</module>
         <module>demo08-rocketmq-demo-reconsume</module>
         <module>demo09-rocketmq-dlm</module>
+        <module>demo10-rocketmq-delay-message</module>
     </modules>
 
 
