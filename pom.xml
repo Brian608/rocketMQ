@@ -19,6 +19,7 @@
         <module>demo08-rocketmq-demo-reconsume</module>
         <module>demo09-rocketmq-dlm</module>
         <module>demo10-rocketmq-delay-message</module>
+        <module>demo11-rocketmq-ordermsg</module>
     </modules>
 
 
