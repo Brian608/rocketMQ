@@ -21,6 +21,7 @@
         <module>demo10-rocketmq-delay-message</module>
         <module>demo11-rocketmq-ordermsg</module>
         <module>demo12-rocketmq-tx</module>
+        <module>demo13-sentinel</module>
     </modules>
 
 

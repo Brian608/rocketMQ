@@ -24,14 +24,11 @@ public class TxConsumer {
         consumer.setNamesrvAddr("localhost:9876");
         consumer.subscribe("tp_demo_12","*");
 
-        consumer.setMessageListener(new MessageListenerConcurrently() {
-            @Override
-            public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
-                for (MessageExt msg : msgs) {
-                    System.out.println(new String(msg.getBody()));
-                }
-                return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
+        consumer.setMessageListener((MessageListenerConcurrently) (msgs, consumeConcurrentlyContext) -> {
+            for (MessageExt msg : msgs) {
+                System.out.println(new String(msg.getBody()));
             }
+            return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
         });
         consumer.start();
     }
