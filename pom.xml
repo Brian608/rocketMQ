@@ -22,6 +22,7 @@
         <module>demo11-rocketmq-ordermsg</module>
         <module>demo12-rocketmq-tx</module>
         <module>demo13-sentinel</module>
+        <module>demo14-rocketmq-producer</module>
     </modules>
 
 
